@@ -1,0 +1,194 @@
+@{ Layout = null; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Devixo Solutions - View our latest successful projects across web, e-commerce, and corporate business domains.">
+    <title>Portfolio | Devixo Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="/Home/Index" class="logo">
+                <i class="fa-solid fa-code"></i>
+                Devixo Solutions
+            </a>
+            <div class="nav-links">
+                <a href="/Home/Index">Home</a>
+                <a href="/Home/About">About</a>
+                <a href="/Home/Services">Services</a>
+                <a href="/Home/Portfolio">Portfolio</a>
+                <a href="/Home/Contact">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="section" style="background-color: var(--color-bg-white); border-bottom: 1px solid var(--color-border); padding: 4rem 0;">
+        <div class="container text-center">
+            <h1>Our Portfolio</h1>
+            <p style="max-width: 600px; margin: 0 auto;">Discover our recent projects and see how we've helped businesses achieve their digital goals.</p>
+        </div>
+    </section>
+
+    <!-- Image Slider Showcase -->
+    <section class="section" style="padding-top: 2rem; padding-bottom: 0;">
+        <div class="container">
+            <h2 class="text-center">Featured Projects Slider</h2>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&q=80&w=1200&h=600" alt="UI Design Workspace">
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1200&h=600" alt="E-Commerce Analytics">
+                    </div>
+                    <div class="slide">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1200&h=600" alt="Web Development Coding">
+                    </div>
+                </div>
+                <button class="slider-btn slider-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="slider-btn slider-next"><i class="fa-solid fa-chevron-right"></i></button>
+                <div class="slider-dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filterable Portfolio Grid -->
+    <section class="section">
+        <div class="container">
+            <div class="filter-btns">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+                <button class="filter-btn" data-filter="business">Business</button>
+                <button class="filter-btn" data-filter="uiux">UI/UX</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item" data-category="ecommerce">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&q=80&w=600&h=400" alt="E-Commerce Platform" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">E-Commerce</div>
+                        <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">Modern Storefront</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 1rem;">A fully responsive e-commerce platform with seamless payment integration.</p>
+                        <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="portfolio-item" data-category="business">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=600&h=400" alt="Corporate Business Website" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">Business</div>
+                        <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">Corporate Portal</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 1rem;">A professional corporate website redesigned to improve user engagement.</p>
+                        <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&q=80&w=600&h=400" alt="Restaurant Management System" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">Web Development</div>
+                        <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">Restaurant Hub</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 1rem;">An intuitive web application for managing restaurant reservations and menus.</p>
+                        <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-item" data-category="uiux">
+                    <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&q=80&w=600&h=400" alt="Education Portal" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">UI/UX Design</div>
+                        <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">LearnSpace UI</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 1rem;">A comprehensive UI/UX redesign for an online learning management system.</p>
+                        <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-item" data-category="business">
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=600&h=400" alt="Real Estate Platform" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">Business</div>
+                        <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">PropertyFinder</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 1rem;">A robust platform connecting real estate agents with potential buyers.</p>
+                        <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=600&h=400" alt="Healthcare Website" class="portfolio-img">
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">Web Development</div>
+                        <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">MediCare Connect</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 1rem;">A secure portal for patients to schedule appointments and view records.</p>
+                        <a href="#" class="btn btn-outline" style="padding: 0.5rem 1rem; font-size: 0.9rem;">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="logo" style="margin-bottom: 1rem;">
+                        <i class="fa-solid fa-code"></i> Devixo Solutions
+                    </div>
+                    <p>Digital Solutions. Powerful Results.</p>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 1rem;">Quick Links</h4>
+                    <ul style="display:flex; flex-direction:column; gap:0.5rem;">
+                        <li><a href="/Home/Index">Home</a></li>
+                        <li><a href="/Home/About">About Us</a></li>
+                        <li><a href="/Home/Services">Services</a></li>
+                        <li><a href="/Home/Portfolio">Portfolio</a></li>
+                        <li><a href="/Home/Contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 1rem;">Contact Info</h4>
+                    <ul style="display:flex; flex-direction:column; gap:0.5rem; color:var(--color-text-muted);">
+                        <li><i class="fa-solid fa-envelope"></i> hello@devixosolutions.com</li>
+                        <li><i class="fa-solid fa-phone"></i> +92 300 1234567</li>
+                        <li><i class="fa-solid fa-location-dot"></i> Lahore, Pakistan</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Devixo Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
+

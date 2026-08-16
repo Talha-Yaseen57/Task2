@@ -1,0 +1,166 @@
+@{ Layout = null; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Devixo Solutions - Building Digital Experiences That Drive Growth. We provide modern web development, UI/UX, and digital solutions.">
+    <title>Devixo Solutions | Modern Digital Experiences</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="/Home/Index" class="logo">
+                <i class="fa-solid fa-code"></i>
+                Devixo Solutions
+            </a>
+            <div class="nav-links">
+                <a href="/Home/Index">Home</a>
+                <a href="/Home/About">About</a>
+                <a href="/Home/Services">Services</a>
+                <a href="/Home/Portfolio">Portfolio</a>
+                <a href="/Home/Contact">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge">Welcome to Devixo Solutions</span>
+                <h1>Building Digital Experiences That Drive Growth</h1>
+                <div class="typing-container">
+                    We Build <span class="typing-text"></span>
+                </div>
+                <p>We design and develop modern, responsive and user-focused digital solutions that help businesses grow.</p>
+                <div class="hero-btns">
+                    <a href="/Home/Services" class="btn btn-primary">Explore Services</a>
+                    <a href="/Home/Portfolio" class="btn btn-outline">View Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center" style="margin-bottom: 3rem;">
+                <h2>Our Core Expertise</h2>
+                <p>Delivering high-quality digital solutions tailored to your needs.</p>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <i class="fa-solid fa-laptop-code card-icon"></i>
+                    <h3>Web Development</h3>
+                    <p>Custom, responsive, and scalable websites built with modern technologies.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-pen-nib card-icon"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Intuitive and beautiful user interfaces designed for maximum engagement.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-cart-shopping card-icon"></i>
+                    <h3>E-Commerce</h3>
+                    <p>Powerful online stores that drive sales and provide seamless checkout.</p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-chart-line card-icon"></i>
+                    <h3>Digital Marketing</h3>
+                    <p>Data-driven strategies to increase your online visibility and ROI.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Counters -->
+    <section class="stats">
+        <div class="container">
+            <div class="grid">
+                <div>
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-text">Projects Completed</div>
+                </div>
+                <div>
+                    <div class="stat-number" data-target="30">0</div>
+                    <div class="stat-text">Happy Clients</div>
+                </div>
+                <div>
+                    <div class="stat-number" data-target="5">0</div>
+                    <div class="stat-text">Years Experience</div>
+                </div>
+                <div>
+                    <div class="stat-number" data-target="15">0</div>
+                    <div class="stat-text">Team Members</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to transform your digital presence?</h2>
+            <p style="margin-bottom: 2rem;">Let's work together to create something amazing.</p>
+            <a href="/Home/Contact" class="btn btn-primary">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="logo" style="margin-bottom: 1rem;">
+                        <i class="fa-solid fa-code"></i> Devixo Solutions
+                    </div>
+                    <p>Digital Solutions. Powerful Results.</p>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 1rem;">Quick Links</h4>
+                    <ul style="display:flex; flex-direction:column; gap:0.5rem;">
+                        <li><a href="/Home/Index">Home</a></li>
+                        <li><a href="/Home/About">About Us</a></li>
+                        <li><a href="/Home/Services">Services</a></li>
+                        <li><a href="/Home/Portfolio">Portfolio</a></li>
+                        <li><a href="/Home/Contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 1rem;">Contact Info</h4>
+                    <ul style="display:flex; flex-direction:column; gap:0.5rem; color:var(--color-text-muted);">
+                        <li><i class="fa-solid fa-envelope"></i> hello@devixosolutions.com</li>
+                        <li><i class="fa-solid fa-phone"></i> +92 300 1234567</li>
+                        <li><i class="fa-solid fa-location-dot"></i> Lahore, Pakistan</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Devixo Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="~/js/script.js"></script>
+</body>
+</html>
+

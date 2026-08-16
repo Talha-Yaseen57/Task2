@@ -1,0 +1,246 @@
+@{ Layout = null; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Devixo Solutions - Get in touch with us to discuss your project requirements and digital strategy.">
+    <title>Contact Us | Devixo Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="/Home/Index" class="logo">
+                <i class="fa-solid fa-code"></i>
+                Devixo Solutions
+            </a>
+            <div class="nav-links">
+                <a href="/Home/Index">Home</a>
+                <a href="/Home/About">About</a>
+                <a href="/Home/Services">Services</a>
+                <a href="/Home/Portfolio">Portfolio</a>
+                <a href="/Home/Contact">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="mobile-menu-btn" aria-label="Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="section" style="background-color: var(--color-bg-white); border-bottom: 1px solid var(--color-border); padding: 4rem 0;">
+        <div class="container text-center">
+            <h1>Contact Us</h1>
+            <p style="max-width: 600px; margin: 0 auto;">Ready to start your next big project? Get in touch with our team today and let's discuss how we can help your business grow.</p>
+        </div>
+    </section>
+
+    <!-- Contact Info & Form -->
+    <section class="section">
+        <div class="container">
+            <div class="grid">
+                
+                <!-- Contact Information -->
+                <div>
+                    <h2 style="margin-bottom: 2rem;">Get In Touch</h2>
+                    <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem; align-items: flex-start;">
+                        <div style="width: 50px; height: 50px; background-color: rgba(108, 99, 255, 0.1); color: var(--color-primary); display: flex; align-items: center; justify-content: center; border-radius: 50%; font-size: 1.5rem;">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <h4 style="margin-bottom: 0.25rem;">Our Location</h4>
+                            <p style="margin: 0;">Lahore, Pakistan</p>
+                        </div>
+                    </div>
+                    
+                    <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem; align-items: flex-start;">
+                        <div style="width: 50px; height: 50px; background-color: rgba(108, 99, 255, 0.1); color: var(--color-primary); display: flex; align-items: center; justify-content: center; border-radius: 50%; font-size: 1.5rem;">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4 style="margin-bottom: 0.25rem;">Email Us</h4>
+                            <p style="margin: 0;">hello@devixosolutions.com</p>
+                        </div>
+                    </div>
+                    
+                    <div style="display: flex; gap: 1rem; margin-bottom: 3rem; align-items: flex-start;">
+                        <div style="width: 50px; height: 50px; background-color: rgba(108, 99, 255, 0.1); color: var(--color-primary); display: flex; align-items: center; justify-content: center; border-radius: 50%; font-size: 1.5rem;">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4 style="margin-bottom: 0.25rem;">Call Us</h4>
+                            <p style="margin: 0;">+92 300 1234567</p>
+                        </div>
+                    </div>
+                    
+                    <h3 style="margin-bottom: 1rem;">Follow Us</h3>
+                    <div style="display: flex; gap: 1rem;">
+                        <a href="#" style="width: 40px; height: 40px; background-color: var(--color-bg-white); border: 1px solid var(--color-border); display: flex; align-items: center; justify-content: center; border-radius: 50%; transition: var(--transition);"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" style="width: 40px; height: 40px; background-color: var(--color-bg-white); border: 1px solid var(--color-border); display: flex; align-items: center; justify-content: center; border-radius: 50%; transition: var(--transition);"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" style="width: 40px; height: 40px; background-color: var(--color-bg-white); border: 1px solid var(--color-border); display: flex; align-items: center; justify-content: center; border-radius: 50%; transition: var(--transition);"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div>
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <h3 style="margin-bottom: 1.5rem;">Send Us A Message</h3>
+                        
+                        <div class="form-success">
+                            <i class="fa-solid fa-circle-check"></i> Thank you! Your message has been successfully sent. We will contact you soon.
+                        </div>
+
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="John Doe">
+                            <div class="error-msg"></div>
+                        </div>
+                        
+                        <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 1rem;">
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" class="form-control" placeholder="john@example.com">
+                                <div class="error-msg"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" class="form-control" placeholder="+92 300 1234567">
+                                <div class="error-msg"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" placeholder="How can we help you?">
+                            <div class="error-msg"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" placeholder="Please describe your project requirements in detail..."></textarea>
+                            <div class="error-msg"></div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section class="section" style="background-color: var(--color-bg-white);">
+        <div class="container">
+            <div class="text-center" style="margin-bottom: 3rem;">
+                <h2>Frequently Asked Questions</h2>
+                <p>Find answers to common questions about our services.</p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What services does Devixo Solutions provide?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We provide a comprehensive range of digital services including Custom Web Development, UI/UX Design, E-Commerce Solutions, Mobile App Development, SEO & Digital Marketing, and Cloud Solutions.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>How long does a website project take?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The timeline for a website project varies depending on its complexity and requirements. A standard corporate website typically takes 4-6 weeks, while a complex e-commerce platform might take 8-12 weeks.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you provide website maintenance?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer ongoing maintenance and support packages to ensure your website remains secure, up-to-date, and performs optimally long after the initial launch.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Can you build custom e-commerce websites?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! We specialize in building scalable, secure, and user-friendly custom e-commerce platforms tailored to your specific business model and customer needs.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you provide SEO services?</span>
+                        <i class="fa-solid fa-chevron-down faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we build all our websites with SEO best practices in mind. We also offer comprehensive ongoing SEO and digital marketing services to help improve your search rankings and drive traffic.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="logo" style="margin-bottom: 1rem;">
+                        <i class="fa-solid fa-code"></i> Devixo Solutions
+                    </div>
+                    <p>Digital Solutions. Powerful Results.</p>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 1rem;">Quick Links</h4>
+                    <ul style="display:flex; flex-direction:column; gap:0.5rem;">
+                        <li><a href="/Home/Index">Home</a></li>
+                        <li><a href="/Home/About">About Us</a></li>
+                        <li><a href="/Home/Services">Services</a></li>
+                        <li><a href="/Home/Portfolio">Portfolio</a></li>
+                        <li><a href="/Home/Contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 1rem;">Contact Info</h4>
+                    <ul style="display:flex; flex-direction:column; gap:0.5rem; color:var(--color-text-muted);">
+                        <li><i class="fa-solid fa-envelope"></i> hello@devixosolutions.com</li>
+                        <li><i class="fa-solid fa-phone"></i> +92 300 1234567</li>
+                        <li><i class="fa-solid fa-location-dot"></i> Lahore, Pakistan</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Devixo Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
+
